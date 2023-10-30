@@ -8,6 +8,6 @@ public class KafkaListeners {
 
 	@KafkaListener(topics = "digitalcode", groupId = "groupId")
 	void listener(String data) {
-		System.out.println("Listener received: " + data + "\"😀\"");
+		System.out.println("Listener received: " + data + " 😀 ");
 	}
 }
